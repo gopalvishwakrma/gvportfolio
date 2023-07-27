@@ -1,0 +1,184 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 800px;
+    }
+
+    /* *{
+        width: 7%;
+    } */
+
+    .welcome {
+        display: none;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 50px;
+    }
+
+    .alert {
+        display: block;
+    }
+
+    .profileimage {
+        display: none;
+    }
+
+    .leftside {
+        text-align: center;
+    }
+
+    .aboutmeimage {
+        width: 60vw;
+    }
+
+    .aboutme {
+        position: relative;
+        top: 150px;
+        display: ;
+    }
+
+    .rightme {
+        text-align: center;
+    }
+
+    .mm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .buttonn {
+        position: relative;
+        right: 250px;
+    }
+
+    .heading {}
+
+    #downloadButton {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #3b6983;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    #downloadButton:hover {
+        background-color: #476d85;
+    }
+
+
+
+    .leftside {
+        width: 500;
+    }
+
+    .skills {
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        left: 300px;
+    }
+
+    /* .service */
+
+    .service{
+        height: 1000px;
+    }
+
+    .services{
+        /* display: flex; */
+        flex-direction: column;
+        position: relative;
+        left: 360px;
+        gap: 120px;
+        /* flex-direction: column; */
+    }
+
+    .frontend,
+    .uiux {
+        width: 60vw;
+        box-shadow: none;
+        border: 1px solid white;
+        margin-top: 0;
+    }
+
+    .frontendh2{
+        position: absolute;
+        top: 270px;
+        left: 20px !important;
+    }
+
+    .frontendp{
+        font-size: 1rem
+        position: relative;
+        top: 300px;
+        left: 20px !important;
+    }
+
+    /* contactus */
+
+    .contactuss {
+        position: relative;
+        left: 170px;
+    }
+
+    input,
+    textarea {
+        width: 50%;
+    }
+
+    .submit-btn {
+        position: relative;
+        left: 137px;
+        width: 29% !important;
+    }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 990px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .styled-input {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
